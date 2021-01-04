@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* ----------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins',
     sans-serif;
@@ -22,7 +26,15 @@ body{
     margin-left: 5%;
     padding-left: 2%;
     float: left;
+    margin-top: 5%;
 }
 .header-img img{
     width: 100%;
+   overflow: hidden;
+}
+.header-section{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    border: 1px solid red;
 }
