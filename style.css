@@ -2,39 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* ----------------------------------------------- */
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
-    font-family: 'Poppins',
-    sans-serif;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
 }
-.title-1{
-    margin-bottom: 0;
-    padding: 0;
-    font-size: ;
+h1{
+    font-size: 50px;
 }
-.title-2{
-    margin-top: 0;
+h2,.speaker{
+    font-size: 40px;
 }
-.title-2 span{
-    color:#264067
+p{
+    color: dimgray;
 }
-.header-info,.header-img{
+.orange-element{
+    color: orange;
+}
+.name-highlight{
+    color: #264067;
+}
+.half-width{
     width: 40%;
+    float: left;
     margin-left: 5%;
     padding-left: 2%;
-    float: left;
-    margin-top: 5%;
+    box-sizing: border-box;
 }
-.header-img img{
+.half-width img{
     width: 100%;
-   overflow: hidden;
+    margin-top: 5%;
+   
 }
-.header-section{
+.top-banner{
     background-image: url("images/top-banner.png");
-    height: 500px;
     background-repeat: no-repeat;
-    border: 1px solid red;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    border-radius: 5px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experience-box1{
+   border-left: 5px solid;
+      border-image: linear-gradient(180deg, lightSalmon, tomato);
+      border-image-slice: 1;
+}
+#experience-box2{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
 }
